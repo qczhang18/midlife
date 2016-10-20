@@ -14,8 +14,8 @@ header img{
 }
 
 /* Tablet Mode Portrait and Landscape */
-@media screen and (min-width: 768px) 
-      and (max-width: 1024px) 
+@media screen and (min-width: 768px)
+      and (max-width: 1024px)
 {
 
 #wrapper{
