@@ -1,5 +1,19 @@
+
+#footer img{
+    padding:5px;
+    float:right;
+    width:25px;
+    height:25px;
+    bottom:0px;
+}
+
+/* Tablet Mode Portrait and Landscape */
+@media screen and (min-width: 768px) 
+      and (max-width: 1024px) 
+{
+
 #wrapper{
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 #navbar ul {
@@ -37,8 +51,10 @@
     bottom:50px;
 }
 #footer img{
+    padding:5px;
     float:right;
     width:25px;
     height:25px;
     bottom:0px;
+}
 }
