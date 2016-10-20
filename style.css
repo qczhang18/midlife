@@ -1,10 +1,14 @@
 
-#footer img{
+#social img{
     padding:5px;
     float:right;
     width:25px;
     height:25px;
     bottom:0px;
+}
+
+#footer{
+    display: none;
 }
 
 /* Tablet Mode Portrait and Landscape */
@@ -16,7 +20,7 @@
     width: 100%;
     margin: 0 auto;
 }
-#navbar ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,11 +28,11 @@
     background-color: #333;
 }
 
-#navbar li {
+.navbar li {
     float: left;
 }
 
-#navbar li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -36,7 +40,7 @@
     text-decoration: none;
 }
 
-#navbar li a:hover:not(.active) {
+.navbar li a:hover:not(.active) {
     background-color: #111;
 }
 
@@ -44,17 +48,13 @@
     background-color: #4CAF50;
 }
 
-#footer{
-    width:25px;
-    position: fixed;
-    right:50px;    
-    bottom:50px;
-}
-#footer img{
+
+#social img{
     padding:5px;
     float:right;
     width:25px;
     height:25px;
     bottom:0px;
 }
+
 }
