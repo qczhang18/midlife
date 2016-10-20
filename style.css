@@ -1,9 +1,8 @@
 #wrapper{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
-
-#nav ul {
+#navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -11,11 +10,11 @@
     background-color: #333;
 }
 
-#nav li {
+#navbar li {
     float: left;
 }
 
-#nav li a {
+#navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -23,10 +22,23 @@
     text-decoration: none;
 }
 
-#nav li a:hover:not(.active) {
+#navbar li a:hover:not(.active) {
     background-color: #111;
 }
 
 .active {
     background-color: #4CAF50;
+}
+
+#footer{
+    width:25px;
+    position: fixed;
+    right:50px;    
+    bottom:50px;
+}
+#footer img{
+    float:right;
+    width:25px;
+    height:25px;
+    bottom:0px;
 }
