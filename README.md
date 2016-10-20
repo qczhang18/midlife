@@ -2,7 +2,7 @@
 
 Sample 'About us' description.
 
-Who are we? 
+Who are we?  
 We are an eager bunch of former
 professionals that have made a bold 
 career change to become web developers,
@@ -32,3 +32,18 @@ So welcome, and get acquainted with us(create links within page to jump
 to bios/profiles of MLC). Feel free to
 reach out from the Contact page(link to page) for more info 
 regarding meetups and workshops!
+
+Ivey Edits
+
+<h2>Who are we?</h2>
+We are eager professionals from various backgrounds
+who have made the <strong><strong>BOLD</strong></strong> //*NOTE: Actually bold term and put commands around it for decoration.//decisions to switch from our current careers and become web developers, designers, a.k.a. CODERS!
+
+At some point, we all decided that our lives needed a change and set out to do something about it.
+
+Enter web development. This rapidly growing industry is filled with opportunities for people of all ages. Many of us met at coding schools throughout the area and decided to join forces to support one another as we transitioned into this new, exciting career path!
+
+Whether you are currently making a career shift or just thinking about taking the leap, have a look around the site to check out some helpful resources and tools. And while you're at it, join our Meetup goup to join us for support, discussion and fun. 
+
+<h2>Meet the Group Founders</h2>
+'
