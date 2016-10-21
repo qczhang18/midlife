@@ -60,6 +60,7 @@ h2 {
 
 h3 {
     font-size: 17px;
+    padding-left: 10px;
 }
 
 hr {
@@ -83,15 +84,29 @@ hr {
     color: red;
 }
 
+#blog li {
+    text-decoration: none;
+    text-decoration-style: none;
+    list-style-type: none;
+    padding-left: 0px;
+    /*border: 2px solid black;*/
+}
+
+span {
+    color: black;
+    font-size: 12px;
+}
+
 #email {
     float: right;
     clear: right;
-    height: 220px;
+    height: 260px;
     width: 140px;
-    b/*order: 1px solid black;*/
+    /*order: 1px solid black;*/
     font:17px/26px Georgia, Garamond, Serif, red;
-    padding: 20px;
+    padding: 10px;
     color: red;
+    margin-top: 0px;
 }
 
 #mainContainer {
@@ -103,15 +118,10 @@ hr {
     height: 100%;
     width: 180px;
     background-color: #bde6ff;
-    margin-top: 5px;
+    margin-top: 20px;
 
 }
 
-
-/*>>>>>>> completed links for "learning code"*/
-
-
-/* Tablet Mode Portrait and Landscape */
 @media screen and (min-width: 768px)
 {
 
@@ -186,4 +196,5 @@ margin-left: 35%;
 font-size: 24px; 
 border-radius: 4px;
 }
+
 }
