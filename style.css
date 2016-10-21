@@ -57,6 +57,10 @@ hr {
     
 }
 
+.navbar{
+    display:none;
+}
+
 
 /*>>>>>>> completed links for "learning code"*/
 
@@ -65,15 +69,16 @@ hr {
 @media screen and (min-width: 768px)
 {
 
+.navbar{
+    display: inline;
+}
+
 #wrapper{
     width: 100%;
     margin: 0 auto;
 }
 
 .navbar ul {
-
-
-
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -87,12 +92,10 @@ hr {
 }
 
 .navbar li a {
-
     float: left;
 }
 
 .navbar li a {
-
     display: block;
     color: white;
     text-align: center;
