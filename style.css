@@ -7,6 +7,11 @@ header img{
     width:100%;
 }
 
+#social{
+    position: fixed;
+    bottom:0px;
+}
+
 #social img{
     width:25px;
     height:25px;
