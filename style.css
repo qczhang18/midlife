@@ -98,6 +98,11 @@ hr {
     /*border: 2px solid black;*/
 }
 
+.meetup {
+    display: block;
+    margin-left: 40px;
+}
+
 span {
     color: black;
     font-size: 12px;
@@ -121,7 +126,7 @@ span {
 #sidebar {
     float: right;
     /*border: 2px solid black;*/
-    height: 500px;
+    height: 600px;
     width: 180px;
     background-color: #D8D6D6;
     margin-top: 20px;
