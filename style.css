@@ -63,18 +63,17 @@ hr {
 
 /* Tablet Mode Portrait and Landscape */
 @media screen and (min-width: 768px)
-      and (max-width: 1024px)
 {
 
 #wrapper{
     width: 100%;
     margin: 0 auto;
 }
-/*<<<<<<< 25344bc34d1e4a1e108a9ebaf023c2033830c1f3*/
+
 .navbar ul {
 
 
-/*>>>>>>> completed links for "learning code"*/
+
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -82,7 +81,7 @@ hr {
     background-color: #333;
 }
 
-/*<<<<<<< 25344bc34d1e4a1e108a9ebaf023c2033830c1f3*/
+
 .navbar li {
     float: left;
 }
@@ -93,7 +92,7 @@ hr {
 }
 
 .navbar li a {
-/*>>>>>>> completed links for "learning code"*/
+
     display: block;
     color: white;
     text-align: center;
@@ -101,11 +100,10 @@ hr {
     text-decoration: none;
 }
 
-/*<<<<<<< 25344bc34d1e4a1e108a9ebaf023c2033830c1f3*/
+
 .navbar li a:hover:not(.active) {
 
-/*#navbar li a:hover:not(.active) {*/
-/*>>>>>>> completed links for "learning code"*/
+
     background-color: #111;
 }
 
@@ -113,7 +111,6 @@ hr {
     background-color: #4CAF50;
 }
 
-/*<<<<<<< 25344bc34d1e4a1e108a9ebaf023c2033830c1f3*/
 
 #social img{
     padding:5px;
@@ -122,5 +119,12 @@ hr {
     height:25px;
     bottom:0px;
 }
+}
+
+
+@media screen and (min-width: 1024px){
+    #wrapper{
+        width: 80%;
+    }
 
 }
