@@ -74,9 +74,9 @@ hr {
 
 }
 
-.navbar{
+/*.navbar{
     display:none;
-}
+}*/
 
 #blog {
     height:200px;
@@ -205,9 +205,9 @@ span {
 }
 
 #eventsbutton{
-background-color: #2eb2ff;
+background-color: white;
 border: none;
-color: white;
+color: red;
 padding: 32px 16px;
 text-align: center;
 text-decoration: none;
