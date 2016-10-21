@@ -1,6 +1,7 @@
 header img{
     width:100%;
 }
+
 #social img{
     padding:5px;
     float:right;
@@ -91,7 +92,7 @@ hr {
     float: left;
 }
 
-#navbar li a {
+.navbar li a {
 /*>>>>>>> completed links for "learning code"*/
     display: block;
     color: white;
