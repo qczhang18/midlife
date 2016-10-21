@@ -1,9 +1,4 @@
-body{
-    padding:0px;
-    margin:0px;
-}
 header img{
-    margin-top:46px;
     width:100%;
 }
 
@@ -67,10 +62,6 @@ hr {
     
 }
 
-.navbar{
-    display:none;
-}
-
 #blog {
     height:200px;
     width:140px;
@@ -104,7 +95,6 @@ hr {
     width: 180px;
     background-color: #bde6ff;
     margin-top: 5px;
-
 }
 
 
@@ -116,20 +106,14 @@ hr {
 {
 
 #wrapper{
-    padding: 0px;
     width: 100%;
-    margin: 0px auto;
-}
-
-.navbar{
-
-    width: 100%;
-
-    display: block;
-    position: fixed;
+    margin: 0 auto;
 }
 
 .navbar ul {
+
+
+
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -143,10 +127,12 @@ hr {
 }
 
 .navbar li a {
+
     float: left;
 }
 
 .navbar li a {
+
     display: block;
     color: white;
     text-align: center;
@@ -173,17 +159,12 @@ hr {
     height:25px;
     bottom:0px;
 }
-
-#eventsbutton{
-background-color: #2eb2ff;
-border: none;
-color: white;
-padding: 32px 16px; 
-text-align: center;
-text-decoration: none;
-margin-right: 35%;
-margin-left: 35%;
-font-size: 24px; 
-border-radius: 4px;
 }
+
+
+@media screen and (min-width: 1024px){
+    #wrapper{
+        width: 80%;
+    }
+
 }
