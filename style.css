@@ -16,7 +16,7 @@ header img{
 #social img{
     width:25px;
     height:25px;
-    clear: all; 
+    clear: all;
     display: inline;
     margin-right: 10px;
     margin-top: 275px;
@@ -71,7 +71,7 @@ h3 {
 
 hr {
     color: grey;
-    
+
 }
 
 .navbar{
@@ -86,8 +86,13 @@ hr {
     overflow:auto;
     float: right;
     padding: 20px;
-    padding-top: 0px;
+    padding-top: 20px;
     color: red;
+}
+
+#blog img {
+    width: 80px;
+    height:80px;
 }
 
 #blog li {
@@ -96,6 +101,9 @@ hr {
     list-style-type: none;
     padding-left: 0px;
     /*border: 2px solid black;*/
+}
+#calendar {
+    padding-top: 40px;
 }
 
 .meetup {
@@ -200,12 +208,12 @@ span {
 background-color: #2eb2ff;
 border: none;
 color: white;
-padding: 32px 16px; 
+padding: 32px 16px;
 text-align: center;
 text-decoration: none;
 margin-right: 35%;
 margin-left: 35%;
-font-size: 24px; 
+font-size: 24px;
 border-radius: 4px;
 }
 
