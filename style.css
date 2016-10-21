@@ -1,4 +1,9 @@
+body{
+    padding:0px;
+    margin:0px;
+}
 header img{
+    margin-top:46px;
     width:100%;
 }
 
@@ -69,13 +74,18 @@ hr {
 @media screen and (min-width: 768px)
 {
 
-.navbar{
-    display: inline;
+#wrapper{
+    padding: 0px;
+    width: 100%;
+    margin: 0px auto;
 }
 
-#wrapper{
+.navbar{
+
     width: 100%;
-    margin: 0 auto;
+
+    display: block;
+    position: fixed;
 }
 
 .navbar ul {
@@ -122,12 +132,4 @@ hr {
     height:25px;
     bottom:0px;
 }
-}
-
-
-@media screen and (min-width: 1024px){
-    #wrapper{
-        width: 80%;
-    }
-
 }
